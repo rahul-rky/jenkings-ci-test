@@ -8,17 +8,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
+//@RestController
 public class SpringBootJenkinsDemoApplication {
 	public static Logger logger= LoggerFactory.getLogger(SpringBootJenkinsDemoApplication.class);
 	public void init(){
 		logger.info("Application started.....");
 	}
 
-	@GetMapping("/greet")
-	public String greetController(){
-		return "Hi, Greet controller is working.";
-	}
+//	@GetMapping("/greet")
+//	public String greetController(){
+//		return "Hi, Greet controller is working.";
+//	}
 
 	public static void main(String[] args) {
 		logger.info("Application executed");

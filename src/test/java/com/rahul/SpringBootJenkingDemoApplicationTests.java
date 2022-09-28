@@ -14,6 +14,7 @@ class SpringBootJenkingDemoApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case executing");
+		logger.info("Test 2 is going on");
 		assertEquals(true,true);
 	}
 
